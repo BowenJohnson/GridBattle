@@ -16,6 +16,18 @@ public static class Data
         { Tetromino.S, new Vector2Int[] { new Vector2Int( 0, 1), new Vector2Int( 1, 1), new Vector2Int(-1, 0), new Vector2Int( 0, 0) } },
         { Tetromino.T, new Vector2Int[] { new Vector2Int( 0, 1), new Vector2Int(-1, 0), new Vector2Int( 0, 0), new Vector2Int( 1, 0) } },
         { Tetromino.Z, new Vector2Int[] { new Vector2Int(-1, 1), new Vector2Int( 0, 1), new Vector2Int( 0, 0), new Vector2Int( 1, 0) } },
+				// New shapes
+				// Number of letter is shape size. H = Horizontal, V = Vertical, DU = Diagonal Up, DD = Diagonal Down
+				// Regular 2 size
+				{ Tetromino.HH, new Vector2Int[] { new Vector2Int( 0, 0), new Vector2Int( 0, 1)} },
+				{ Tetromino.VV, new Vector2Int[] { new Vector2Int( 0, 0), new Vector2Int( 1, 0)} },
+				{ Tetromino.DU, new Vector2Int[] { new Vector2Int( 0, 0), new Vector2Int( 1, 1)} },
+				{ Tetromino.DD, new Vector2Int[] { new Vector2Int( 0, 0), new Vector2Int( 1,-1)} },
+				// Regular 3 size
+				{ Tetromino.HHH, new Vector2Int[] { new Vector2Int(-1, 0), new Vector2Int( 0, 0), new Vector2Int( 1, 0)} },
+				{ Tetromino.VVV, new Vector2Int[] { new Vector2Int( 0,-1), new Vector2Int( 0, 0), new Vector2Int( 0, 1)} },
+				{ Tetromino.DUU, new Vector2Int[] { new Vector2Int(-1,-1), new Vector2Int( 0, 0), new Vector2Int( 1, 1)} },
+				{ Tetromino.DDD, new Vector2Int[] { new Vector2Int(-1, 1), new Vector2Int( 0, 0), new Vector2Int( 1,-1)} },
     };
 
     // wall kick data from tables in tetris.fandom.com/wiki/SRS
