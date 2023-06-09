@@ -615,27 +615,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tetrominos:
   - tile: {fileID: 11400000, guid: 559f83c45e8d6e14dade1897f52720e2, type: 2}
-    tetromino: 0
+    tetromino: 15
     cells: []
-  - tile: {fileID: 11400000, guid: e5006c4c1b52e454689c117b7267effb, type: 2}
-    tetromino: 1
-    cells: []
-  - tile: {fileID: 11400000, guid: b021631529682664c9ad1f8e0ab61ef4, type: 2}
-    tetromino: 2
-    cells: []
-  - tile: {fileID: 11400000, guid: 6e08f68f2c3b2154e91fdc6c6854eb39, type: 2}
-    tetromino: 3
-    cells: []
-  - tile: {fileID: 11400000, guid: 7b4e51bad588b784b95a8417c6f06bfb, type: 2}
-    tetromino: 4
-    cells: []
-  - tile: {fileID: 11400000, guid: 8f40bfb9989949d4daf744397969cd8f, type: 2}
-    tetromino: 5
-    cells: []
-  - tile: {fileID: 11400000, guid: 23ced1f34368efc4f9064d36591de45c, type: 2}
-    tetromino: 6
-    cells: []
-  spawnPosition: {x: -1, y: 0, z: 0}
+  spawnPosition: {x: 0, y: 0, z: 0}
   boardSize: {x: 10, y: 20}
 --- !u!1 &1807456465
 GameObject:

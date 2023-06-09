@@ -3,7 +3,7 @@ using UnityEngine.Tilemaps;
 
 public enum Tetromino
 {
-    I, J, L, O, S, T, Z, HH, VV, DU, DD, HHH, VVV, DUU, DDD
+    I, J, L, O, S, T, Z, HH, VV, DU, DD, HHH, VVV, DUU, DDD, X
 }
 
 [System.Serializable]
